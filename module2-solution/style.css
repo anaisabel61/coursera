@@ -1,0 +1,123 @@
+
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.nossomenu {
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	position: relative;
+	font-family: "Dancing Script";
+}
+#caixa1 {
+	position: relative;
+	float: left;
+	background-color: grey;
+	border: black 5px solid;
+	margin: 10px;
+	width: 300px;
+	height: 150px;
+}
+#caixa2 {
+	position: relative;
+	float: left;
+	background-color: grey;
+	border: black 5px solid;
+	margin: 10px;
+	width: 300px;
+	height: 150px;
+}
+#caixa3 {
+	position: relative;
+	float: left;
+	border: black 5px solid;
+	background-color: grey;
+	margin: 10px;
+	width: 300px;
+	height: 150px;
+}
+.opcao1 {
+	position: relative;
+	float: right;
+	clear: both;
+	background-color: rgb(255, 160, 137);
+	margin: 0;
+	padding: 5px;
+	border: solid 2px black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Dancing Script";
+}
+.opcao2 {
+	position: relative;
+	float: right;
+	clear: both;
+	background-color: rgb(255, 58, 35);
+	margin:0;
+	padding: 5px;
+	border: solid 2px black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Dancing Script";
+}
+.opcao3 {
+	position: relative;
+	float: right;
+	clear: both;
+	background-color: rgb(255, 213, 100);
+	margin: 0;
+	padding: 5px;
+	border: solid 2px black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Dancing Script";
+
+	}
+.p-content {
+	margin: 45px 12px 12px 12px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+@media screen and (min-width: 992px) {
+	#caixa1 {
+		width: 30%;
+		margin-left: 30px;
+	}
+	#caixa2 {
+		width: 30%;
+	}
+	#caixa3 {
+		width: 30%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#caixa1 {
+		width: 40%;
+		margin-left: 90px;
+	}
+	#caixa2 {
+		width: 40%;
+	}
+	#caixa3 {
+		width: 82%;
+		margin-left: 90px;
+	}
+
+}	
+@media screen and (max-width: 767px) {
+	#caixa1 {
+		width: 60%;
+		margin-left: 130px;
+	}
+	#caixa2 {
+		width: 60%;
+		margin-left: 130px;
+	}
+	#caixa3 {
+		width: 60%;
+		margin-left: 130px;
+	}
+}
